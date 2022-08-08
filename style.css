@@ -126,7 +126,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(C:\Users\AS\OneDrive\Desktop\Show\gitpages\Architect1\images\projects\architect.jpg);
+  background-image: url(/images/projects/architect.jpg);
   letter-spacing: 4px;
 }
 .firstPart {
