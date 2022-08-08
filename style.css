@@ -62,13 +62,16 @@ body {
   letter-spacing: 5px;
   font-weight: 400px;
   color: black;
-  transition: 0.5s;
+  transition: 0.1s;
   border-radius: 5px;
 }
 
 .navbar a:hover {
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
+}
+.navbar a:active {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .projects {
   font-family: "Segoe UI", Arial, sans-serif;
@@ -106,13 +109,15 @@ body {
   align-items: center;
 }
 .displayContainer img {
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
   width: 350px;
   height: 250px;
   object-fit: cover;
   object-position: bottom;
   padding: 5px;
   transition: 0.2s;
-  box-shadow: 1px 1px 10px 1px black;
+  /* box-shadow: 1px 1px 10px 1px black; */
 }
 .displayContainer img:hover {
   transform: scale(1.05);
@@ -127,6 +132,7 @@ body {
   justify-content: center;
   align-items: center;
   background-image: url(/images/projects/architect.jpg);
+  background-size: cover;
   letter-spacing: 4px;
 }
 .firstPart {
@@ -155,6 +161,7 @@ body {
   filter: grayscale(1);
   transition: 0.5s;
   padding: 10px;
+  cursor: pointer;
 }
 .card:hover {
   filter: grayscale(0);
@@ -186,6 +193,7 @@ body {
   color: rgba(0, 0, 0, 0.7);
 }
 .contactFormContainer {
+  /* border: 1px solid black; */
   display: flex;
   flex-direction: column;
   width: 90%;
@@ -193,9 +201,18 @@ body {
   margin-top: -5px;
   font-size: large;
 }
+.contactFormContainer h3 {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
 .contact {
+  /* border: 1px solid black; */
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
   font-size: 18px;
-  margin: 10px auto;
+  margin: 0px auto;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
 }
@@ -203,17 +220,25 @@ body {
 .contact input {
   width: 100%;
   height: 8vh;
-  border: 1px solid rgba(0, 0, 0, 0.3);
-  margin-top: 5px;
-  padding: auto 10px;
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  /* padding: auto 10px; */
   font-size: large;
 }
 .formBtn {
   padding: 10px 20px;
   font-size: large;
   border-radius: 5px;
+  width: 200px;
   border: none;
   background-color: rgba(0, 0, 0, 0.2);
+}
+.formBtn:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.formBtn:active {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .footerImg {
   width: 90%;
@@ -227,7 +252,7 @@ body {
   align-items: center;
   width: 100%;
   height: 20vh;
-  background: linear-gradient(white, grey);
+  background: rgba(0, 0, 0, 0.7);
 }
 .footer p {
   color: white;
