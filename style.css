@@ -126,7 +126,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(../images/projects/architect.jpg);
+  background-image: url(../../images/projects/architect.jpg);
   letter-spacing: 4px;
 }
 .firstPart {
@@ -171,16 +171,16 @@ body {
   background-size: cover;
 }
 .team1 {
-  background-image: url(../images/architect_about/team1.jpg);
+  background-image: url(../../images/architect_about/team1.jpg);
 }
 .team2 {
-  background-image: url(../images/architect_about/team2.jpg);
+  background-image: url(../../images/architect_about/team2.jpg);
 }
 .team3 {
-  background-image: url(../images/architect_about/team3.jpg);
+  background-image: url(../../images/architect_about/team3.jpg);
 }
 .team4 {
-  background-image: url(../images/architect_about/team4.jpg);
+  background-image: url(../../images/architect_about/team4.jpg);
 }
 .designation {
   color: rgba(0, 0, 0, 0.7);
