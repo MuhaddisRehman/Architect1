@@ -46,7 +46,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: white !important;
+  z-index: 100 !important;
 }
 .logo {
   margin-left: 12px;
@@ -132,7 +133,7 @@ body {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  background-image: url(/images/projects/architect.jpg);
+  background-image: url(images/projects/architect.jpg);
   background-size: cover;
   letter-spacing: 4px;
 }
@@ -172,6 +173,7 @@ body {
   transition: 0.5s;
   transform: translateY(5px);
   overflow: hidden;
+  z-index: 1;
 }
 .card_image {
   border-radius: 5px;
@@ -181,16 +183,16 @@ body {
   background-size: cover;
 }
 .team1 {
-  background-image: url(../../images/architect_about/team1.jpg);
+  background-image: url(images/architect_about/team1.jpg);
 }
 .team2 {
-  background-image: url(../../images/architect_about/team2.jpg);
+  background-image: url(images/architect_about/team2.jpg);
 }
 .team3 {
-  background-image: url(../../images/architect_about/team3.jpg);
+  background-image: url(images/architect_about/team3.jpg);
 }
 .team4 {
-  background-image: url(../../images/architect_about/team4.jpg);
+  background-image: url(images/architect_about/team4.jpg);
 }
 .designation {
   color: rgba(0, 0, 0, 0.7);
@@ -247,7 +249,7 @@ body {
   width: 90%;
   margin: 50px auto;
   height: 100vh;
-  background-image: url(/images/map.jpg);
+  background-image: url(images/map.jpg);
 }
 .footer {
   display: flex;
