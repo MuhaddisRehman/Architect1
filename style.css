@@ -183,7 +183,7 @@ body {
   background-size: cover;
 }
 .team1 {
-  background-image: url(images/architect_about/team1.jpg);
+  background-image: url(/images/architect_about/team1.jpg);
 }
 .team2 {
   background-image: url(images/architect_about/team2.jpg);
